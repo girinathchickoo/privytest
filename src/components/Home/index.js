@@ -72,16 +72,21 @@ export default function SolanaComp() {
         Send Sol
       </button> */}
       <iframe
-        src="https://beta.blockend.com"
+        src="http://beta.blockend.com"
+        title="blockend-widget"
+        id="blockend"
+        allow={"content-security-policy self"}
         style={{
-          minWidth: "500px",
-          minHeight: "592px",
+          width: "443px",
+          height: "590px",
           transform: "scale(0.75)",
           transformOrigin: "top left",
+          background: "white",
+          border: "0px",
         }}
       />
       {/* <iframe
-        src="https://squadswap.com/swap-widget?inputCurrency=BNB&outputCurrency=0x2d2567DeC25c9795117228aDC7FD58116D2E310C&backgroundColor=%23413d4d&inputColor=%233A3544&highlightColor=%23b39ddb&textColor=%23A6A0BB&darktheme=true&height=800px"
+        src="https://www.solstation.xyz/"
         title="swap-widget"
         style={{
           minWidth: "500px",
