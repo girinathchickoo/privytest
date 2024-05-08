@@ -79,10 +79,13 @@ export default function SolanaComp() {
         style={{
           width: "443px",
           height: "500px",
-          transform: "scale(0.75)",
-          transformOrigin: "top left",
-          background: "white",
-          border: "0px solid transparent",
+          // transform: "scale(0.75)",
+          // transformOrigin: "top left",
+          background: "transparent",
+          border: "none",
+          padding: "0px",
+          marginRight: "0px",
+
           // overflow: "hidden",
           overflowClipMargin: "0px",
         }}
