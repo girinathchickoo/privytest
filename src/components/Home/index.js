@@ -18,8 +18,8 @@ export default function SolanaComp() {
         style={{
           width: "443px",
           height: "500px",
-          transform: "scale(0.85)",
-          transformOrigin: "top right",
+          // transform: "scale(0.85)",
+          // transformOrigin: "top right",
           background: "transparent",
           border: "none",
           padding: "0px",
