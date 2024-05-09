@@ -12,22 +12,18 @@ export default function SolanaComp() {
   return (
     <>
       <iframe
-        src="https://beta.blockend.com"
+        src="http://localhost:3000?fromChain=1&fromAddress=0xbf2179859fc6d5bee9bf9158632dc51678a4100e&toChain=1&toAddress=0xc00e94cb662c3520282e6f5717214004a7f26888"
         title="blockend-widget"
-        id="blockend"
-        allow={"content-security-policy self"}
+        id="blockend_frame"
         style={{
           width: "443px",
           height: "500px",
-          // transform: "scale(0.75)",
-          // transformOrigin: "top left",
+          transform: "scale(0.85)",
+          transformOrigin: "top right",
           background: "transparent",
           border: "none",
           padding: "0px",
           marginRight: "0px",
-
-          // overflow: "hidden",
-          overflowClipMargin: "0px",
         }}
       />
       {/* <iframe
